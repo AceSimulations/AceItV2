@@ -18,10 +18,10 @@ var transport = nodemailer.createTransport({
 })
 
 var mailOptions = {
-  from: "AceIT <aceairofficial@gmail.com>",
-  to: "andrewdc@madisoncity.k12.al.us, benlovesplanes@gmail.com, drewcrocker23@gmail.com",
+  from: "AceIT <mailsenderace@gmail.com>",
+  to: "andrewdc@madisoncity.k12.al.us, benlovesplanes@gmail.com, aceairofficial@gmail.com, drewcrocker23@gmail.com",
   subject: 'Someone left a comment on AceIT!',
-  html: "This is an email alert that someone has left a comment on AceIt!<br>Check it out at <a href='https://aceit.flightdude737.repl.co'>Visit AceIT to see feedback.</a>"
+  html: "This is an email alert that someone has left a comment on AceIt!<br>Check it out at <a href='https://aceit.benjaminlamber1.repl.co/'>Visit AceIT to see feedback.</a>"
 }
 
 var emptyData = false
